@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>在线健康管理系统</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="javascript/height.js"></script>
+	
+
+</head>
+<body>
+	<div class="allContain">
+		<div class="header">
+		<div class="person">
+			<a href=""><img src="image/person.jpg" height=50 width=50></a>
+		</div>
+		<span>欢迎你，<a href="">小白</a></span>
+		<from class="search">
+
+			<input type="text" placeholder="搜索">
+			<input type="submit" value="">
+		</from>
+		<ul class="setting">
+			<li>
+				<a href=""><img src="image/设置1.png"  alt="设置" ></a>
+			</li>
+			<li>
+				<a href=""><img src="image/联系我们-邮件1.png" alt="联系我们" ></a>
+			</li>
+		</ul>
+	</div>
+	<div class="nav" id="nav" style="height: 0">
+		<ul class="navleft">
+			<li><a href="#"><img src="image/健康档案1.png" heigth=40 width=40>首页</a></li>
+			<li><a href="archives.html"><img src="image/健康检查结果汇总1.png" heigth=40 width=40>我的体检表</a></li>
+			<li><a href="" class="Family"><img src="image/绑定家人1.png" heigth=40 width=40>家人信息</a></li>
+			<!-- <li><a href=""><img src="image/病史1.png" heigth=40 width=40>就医情况</a></li> -->
+			<li><a href="heathy.html"><img src="image/健康百科1.png" heigth=40 width=40>健康社区</a></li>
+		</ul>
+	</div>
+	<div class="family" id="family" style="height:0;display: none;">
+		<ul class="allfimaly">
+			<li><p><a href="">家人组一</a></p>
+				<ul>
+					<li><a href="">家人一</a></li>
+					<li><a href="">家人二</a></li>
+					<li><a href="">家人三</a></li>
+					<li><a href="">家人四</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="cont">
+		<div class="container-fluid playimg" id="carousel">
+			<div class="arrows">
+				<span title="1" class="arrow"><</span>
+				<span title="0" class="arrow " style="float:right;">></span>
+			</div>
+			    <div  class="carousel" id="list" style="width:0;left:0">
+			      <a href=""><img src="image/7.jpg" id="item-7" class="on" style="width:320px;height:auto" /></a>
+			      <a href=""><img src="image/1.jpg" id="item-1" style="width:320px;height:auto"/></a>
+			      <a href=""><img src="image/2.jpg" id="item-2" style="width:320px;height:auto"/></a>
+			      <a href=""><img src="image/3.jpg" id="item-3" style="width:320px;height:auto"/></a>
+			      <a href=""><img src="image/4.jpg" id="item-4" style="width:320px;height:auto"/></a>
+			      <a href=""><img src="image/5.jpg" id="item-5" style="width:320px;height:auto"/></a>
+			      <a href=""><img src="image/6.jpg" id="item-6" style="width:320px;height:auto"/></a>
+			      <a href=""><img src="image/7.jpg" id="item-7" style="width:320px;height:auto"/></a>
+			      <a href=""><img src="image/1.jpg" id="item-1" style="width:320px;height:auto"/></a>
+			    </div>
+			    <br>
+			<div class="btn">
+				<div  index="1" class="on"></div>
+				<div  index="2" class=""></div>
+				<div  index="3" class=""></div>
+				<div  index="4" class=""></div>
+				<div  index="5" class=""></div>
+				<div  index="6" class=""></div>
+				<div  index="7" class=""></div>
+			</div>
+			
+		</div>
+		<div class="introduce" id="introduce">
+			<div class="container-fluid"> 
+				<div class="row">
+					
+						<h3><a href="" class="intro">健康状况总览</a></h3>
+					
+					
+						<h3><a href="" class="">建议</a></h3>
+					
+					
+						<h3><a href="" class="">体检介绍</a></h3>
+					
+					
+						<h3><a href="" class="">附近医院总览</a></h3>
+					
+				</div>
+				
+			</div>
+
+		</div>
+		<div class="heath">
+			<div class="container-fluid heathy">
+				<div class="ContHead">
+					<h2>健康状况总览</h2>
+				</div>
+				<div class="Hconclude .table-responsive">
+					<table class="table">
+						<thead>
+							<th>异常项目</th>
+							<th>异常情况</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td>葡萄糖阳性：</td>
+								<td>+3  28.正常人尿内葡萄糖为阴性。若尿内葡萄糖为阳性，超过了肾脏对葡萄糖的重吸收能力，常见于糖尿病，甲亢，肾糖阀减低，建议定期复查，必要时专科诊治</td>
+							</tr>
+							<tr>
+								<td>中性粒细胞比值偏高：76</td>
+								<td>正常值：50-75</td>
+							</tr>
+							<tr>
+								<td>中性粒细胞数偏高：7.6</td>
+								<td>正常值：1.8-6.4</td>
+							</tr>
+							<tr>
+								<td>红细胞数偏低：3.58</td>
+								<td>正常值：3.68-5.74</td>
+							</tr>
+							<tr>
+								<td>血红蛋白偏低：99</td>
+								<td>正常值：115-172.多见于老年人，壬辰中晚期以及各种贫血，白血病，</td>
+							</tr>
+							<tr>
+								<td>红细胞比积偏低：31.0</td>
+								<td>正常值：33.5-50.8</td>
+							</tr>
+							<tr>
+								<td>空腹血糖偏高：14.32</td>
+								<td>正常值：3.89-6.11 建议低脂少糖高纤维膳食，坚持有氧运动，密切监测血，尿糖，请复查空腹血（尿）糖，必要时专科诊治</td>
+							</tr>
+							<tr>
+								<td>乙肝五项全阴:</td>
+								<td>提示：目前对乙肝病毒无免疫力，建议注射 20 微克乙肝疫苗</td>
+							</tr>
+							<tr>
+								<td>血糖粘度偏低：12.38</td>
+								<td>正常值：13.79-17.91</td>
+							</tr>
+							<tr>
+								<td>全血粘度偏低</td>
+								<td>正常值：6.87-8.53</td>
+							</tr>
+							<tr>
+								<td>压积偏低：0.31</td>
+								<td>正常值：0.34-0.45</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="suggest">
+			<div class="container-fluid suggestHead">
+				<div class="ContHead">
+					<h2>建议</h2>
+				</div>
+				<div class="suggestContain">
+					<div class="row">
+						<div>
+							<h6>1.</h6>
+							<p>
+								可能贫血，宜适当多吃富含蛋白质、铁、铜、叶酸、维生素B12、维生素C等“造血原料”的食物，诸如猪肝、蛋黄、瘦肉、牛奶、鱼虾、贝类、大豆、豆腐、红糖及新鲜蔬菜、水果。当然药物也是不可少的，具体治疗方案应该遵循临床医生的指导意见。
+							</p>
+						</div>
+						<div>
+							<h6>2</h6>
+							<p>
+								有患糖尿病风险。改变不良饮食习惯，合理调整饮食结构，控制蛋白质、脂肪、糖分的摄入。要增加活动量。运动能提高内分泌系统功能，增加机体的抗病能力，抑制肥胖，减轻体重，改善脂肪代谢，促进葡萄糖的氧化好运转。
+								饮食要有规律，不要空腹或饱食。
+
+不要吃含糖量高的水果，食物。
+
+加强身体锻炼，不要让疾病恶化。
+							</p>
+						</div>
+						<div>
+							<h6>3</h6>
+							<p>
+								免疫力偏低。提高8小时的睡眠质量。
+								保持乐观的心态和愉快的心情。
+								经常参加体育运动锻炼身体。
+								调整好日常饮食，不但要营养均衡而且要有规律。
+								坚持每天经常多喝水。
+							</p>
+						</div>
+						<div>
+							<h6>4</h6>
+							<p>
+								患有骨质疏松。
+								得了骨质疏松，没有发生骨折前，需要服用钙剂和D，如迪巧骨化三醇，另外如果有条件还可以口服PTH，疼痛较重的话可以使用密盖息。绝经后骨质疏松可以使用性激素替代治疗。等等。另外还要多运动如跳舞，练太极拳等等，对骨质疏松都有好处。
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="introduction">
+			<div class="container-fluid tion">
+				<div class="ContHead">
+					<h2>体检介绍</h2>
+				</div>
+				<div class="tionCont row">
+
+					<div>
+						<img src="image/tion_img/血液.png">
+						<p><a href="">血常规</a></p>
+					</div>
+					<div>
+						<img src="image/tion_img/尿液分析.png">
+						<p><a href="">尿常规</a></p>
+					</div>
+					<div>
+						<img src="image/tion_img/便便.png">
+						<p><a href="">便常规</a></p>
+					</div>
+					<div> 
+						<img src="image/tion_img/大便收样.png">
+						<p><a href="">便潜血</a></p>
+					</div>
+					<div>
+						<img src="image/tion_img/生化系统1.png">
+						<p><a href="">生化检查</a></p>
+					</div>
+					<div>
+						<img src="image/tion_img/免疫系统.png">
+						<p><a href="">免疫检查</a></p>
+					</div>
+					<div>
+						<img src="image/tion_img/B超预约-S-实心-新.png">
+						<p><a href="">B超</a></p>
+					</div>
+					<div>
+						<img src="image/tion_img/心电图.png">
+						<p><a href="">心电图</a></p>
+					</div>
+					<div >
+						<img src="image/tion_img/X射线_xray2.png">
+						<p><a href="">X线检查</a></p>
+					</div>
+					<div>
+						<img src="image/tion_img/远红外线.png">
+						<p><a href="">红外线乳腺透视</a></p>
+					</div>
+					<div>
+						<img src="image/tion_img/人.png">
+						<p><a href="">一般检查</a></p>
+					</div>
+					<div>
+						<img src="image/tion_img/耳鼻喉.png">
+						<p><a href="">耳鼻喉检查</a></p>
+					</div>
+					<div>
+						<img src="image/tion_img/眼.png">
+						<p><a href="">眼科</a></p>
+					</div>
+					<div>
+						<img src="image/tion_img/口腔.png">
+						<p><a href="">口腔</a></p>
+					</div>
+					<div>
+						<img src="image/tion_img/妇科 (4).png">
+						<p><a href="">妇科</a></p>
+					</div>
+					<div>
+						<img src="image/tion_img/外科.png">
+						<p><a href="">外科</a></p>
+					</div>
+					<div>
+						<img src="image/tion_img/内科检查.png">
+						<p><a href="">内科
+						</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="doctor">
+			<div class="container-fluid	hospital">
+				<div class="ContHead">
+					<h2>附近医院总览</h2>
+				</div>
+				<div class="hospitalCont">
+					<div class="shadow">
+						<a href=""><img src="image/新华.jpg"></a>
+						<a href="">成都郫县新华医院</a>
+						<p>
+							成都市新华人民医院位于成都市双桥路180号，始建于1958年，是二级甲等民营综合医院。
+							有内、外、妇产、小儿、口腔、眼、耳鼻喉、皮肤、中医、康复医学、麻醉、预防保健、急诊等科室。
+						</p>
+						<a href="">到这去</a>
+					</div>
+					<div class="shadow">
+						<a href=""><img src="image/第二人名医院.jpg"></a>
+						<a href="">郫县第二人名医院</a>
+						<p>
+							郫县第二人民医院位于四川省成都市近郊郫县唐昌镇北正街124号，始建于1946年7月，是一所集医疗、教学、科研、预防保健和公共卫生为一体的二级乙等综合医院，是四川省医保定点单位。
+							
+						</p>
+						<a href="">到这去</a>
+					</div>
+					<div class="shadow"> 
+						<a href=""><img src="image/人名.jpg"></a>
+						<a href="">成都郫县人名医院</a>
+						<p>
+							郫县人民医院始建于1939年9月，是一家二甲综合医院。
+							行政科室：院办公室、财务科、(含医保办、门诊挂号收费处、出入院处、)防保科、院感科、信息科、政工科、审计科、护理部、保卫科、。
+						</p>
+						<a href="">到这去</a>
+					</div>
+					<div class="shadow">
+						<a href=""><img src="image/中医院.jpg"></a>
+						<a href="">成都郫县中医医院</a>
+						<p>
+							郫县中医医院始建于1954年，三级乙等中医医院（于2012年10月通过评审）。门诊部设有肺病专科、心脑病专科（心脑血管内科）、肝胆病科、骨伤科、肛肠科、妇科、脉管炎、乳腺病、
+
+						</p>
+						<a href="">到这去</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<a href="">关于</a>
+			<a href="">联系我们</a>
+			<a href="">客服中心</a>
+		</div>
+	</div>
+</div>
+	
+<script type="text/javascript" src="javascript/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

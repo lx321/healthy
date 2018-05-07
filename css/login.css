@@ -1,0 +1,57 @@
+.login_bk{
+	background: url("../image/bk_login.jpg")  center center no-repeat;
+	background-size: 100% 100%;
+	width:100%;
+	/*border:1px solid #fff;*/
+	
+	/*height:400px;*/
+}
+.from1{
+	position: fixed;
+	top:20%;
+	left:35%;
+	background: #fff;
+	border:1px solid #fff;
+	width:400px;
+	height:400px;
+}
+.from2
+{
+	top:4%;
+	height:500px;
+}
+.from1 h3{
+	margin-left:15px;
+}
+.from1 h6{
+	line-height: 22px;
+	text-align: right;
+}
+.from1 .checkbox  label input[type=checkbox]{
+	height: 22px;
+	vertical-align: top;
+}
+.from1 div.row1{
+	margin:20px 0;
+}
+.from1 div.row1 label{
+	line-height: 30px;
+}
+.from1 div.row1 input{
+	height:45px;
+}
+.from1 div.row1 input[type=submit]{
+	/*margin-left:100px;*/
+	background: red;
+	font-size:20px;
+	font-weight: 200;
+	letter-spacing:40px;letter-spacing:40px;
+	color:#fff;
+}
+.from1 div.row1 input.measure{
+	background:#00e0ee;
+	font-size:14px;
+	font-weight: 200;
+	letter-spacing:1px;
+	color:#fff;
+}

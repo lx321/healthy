@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>健康社区</title>
+	<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<!-- <link rel="stylesheet" type="text/css" href="css/archives.css"> -->
+<link rel="stylesheet" type="text/css" href="css/heathy.css">
+<!-- <script type="text/javascript" src="javascript/height.js"></script> -->
+<script type="text/javascript" src="javascript/archives.js"></script>
+</head>
+<body>
+	<div class="nav" id="nav" style="height: 0">
+		<ul class="navleft">
+			<li><a href="index.html"><img src="image/健康档案1.png" heigth=40 width=40>首页</a></li>
+			<li><a href="#"><img src="image/健康检查结果汇总1.png" heigth=40 width=40>我的体检表</a></li>
+			<li><a href="" class="Family"><img src="image/绑定家人1.png" heigth=40 width=40>家人信息</a></li>
+			<!-- <li><a href=""><img src="image/病史1.png" heigth=40 width=40>就医情况</a></li> -->
+			<li><a href=""><img src="image/健康百科1.png" heigth=40 width=40>健康社区</a></li>
+		</ul>
+		
+	</div>
+	<div class="family" id="family" style="height:0;display: none;">
+		<ul class="allfimaly">
+			<li><p><a href="">家人组一</a></p>
+				<ul>
+					<li><a href="">家人一</a></li>
+					<li><a href="">家人二</a></li>
+					<li><a href="">家人三</a></li>
+					<li><a href="">家人四</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="header">
+		<div class="person">
+			<a href=""><img src="image/person.jpg" height=50 width=50></a>
+		</div>
+		<span>欢迎你，<a href="">小白</a></span>
+		<from class="search">
+
+			<input type="text" placeholder="搜索">
+			<input type="submit" value="">
+		</from>
+		<ul class="setting">
+			<li>
+				<a href=""><img src="image/设置1.png"  alt="设置" ></a>
+			</li>
+			<li>
+				<a href=""><img src="image/联系我们-邮件1.png" alt="联系我们" ></a>
+			</li>
+		</ul>
+	</div>
+	<div class="Allhealthy">
+		<div class="myheathy">
+			<div class="healthy_nav">
+				<ul>
+					<li><a href=""><img src="image/健康百科.png" alt=""></a></li>
+					<li><a href="">饮食文化</a></li>
+					<li><a href="">养身保健</a></li>
+					<li><a href="">对症心得</a></li>
+				</ul>
+			</div>
+			<div class="eat_food">
+				<h3><span>饮食文化</span></h3>
+				<h4><a href="">夏季推荐食谱</a></h4>
+				<div class="recipe">
+					<div>
+						<div>
+							<img src="image/food_1.jpg" alt="冬瓜薏米煲水鸭">
+						</div>
+						<p>冬瓜薏米煲水鸭</p>
+						<p>这款汤清热利尿解暑。冬瓜味甘淡，性微寒，可以清热解毒、利水消痰、除烦止渴、祛湿解暑。薏米即薏苡仁，味甘淡，性凉，健脾渗湿、清热利水。水鸭性平凉而味甘，补中益气、养阴利水。</p>
+					</div>
+					<div>
+
+					</div>
+					<div>
+
+					</div>
+					<div>
+
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="javascript/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	function addOnload(event)
+{
+
+	var oldonload=window.onload;
+	if(typeof window.onload!='function')
+	{	
+		window.onload=event;
+	}
+	else
+	{
+		window.onload=function()
+		{
+			oldonload();
+			event();
+		}
+	}
+}
+	addOnload(setheight);
+	// addOnload(imgdisplay);
+	addOnload(setimg);
+	addOnload(setsetting);
+	addOnload(family);
+</script>
+</body>
+</html>

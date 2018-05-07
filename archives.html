@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		个人体检档案管理
+	</title>
+	<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/archives.css">
+<link rel="stylesheet" type="text/css" href="css/default.css">
+<!-- <script type="text/javascript" src="javascript/height.js"></script> -->
+<script type="text/javascript" src="javascript/archives.js"></script>
+
+</head>
+<body>
+	<div class="nav" id="nav" style="height: 0">
+		<ul class="navleft">
+			<li><a href="index.html"><img src="image/健康档案1.png" heigth=40 width=40>首页</a></li>
+			<li><a href="#"><img src="image/健康检查结果汇总1.png" heigth=40 width=40>我的体检表</a></li>
+			<li><a href="" class="Family"><img src="image/绑定家人1.png" heigth=40 width=40>家人信息</a></li>
+			<!-- <li><a href=""><img src="image/病史1.png" heigth=40 width=40>就医情况</a></li> -->
+			<li><a href="heathy.html"><img src="image/健康百科1.png" heigth=40 width=40>健康社区</a></li>
+		</ul>
+		
+	</div>
+	<div class="family" id="family" style="height:0;display: none;">
+		<ul class="allfimaly">
+			<li><p><a href="">家人组一</a></p>
+				<ul>
+					<li><a href="">家人一</a></li>
+					<li><a href="">家人二</a></li>
+					<li><a href="">家人三</a></li>
+					<li><a href="">家人四</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="header">
+		<div class="person">
+			<a href=""><img src="image/person.jpg" height=50 width=50></a>
+		</div>
+		<span>欢迎你，<a href="">小白</a></span>
+		<from class="search">
+
+			<input type="text" placeholder="搜索">
+			<input type="submit" value="">
+		</from>
+		<ul class="setting">
+			<li>
+				<a href=""><img src="image/设置1.png"  alt="设置" ></a>
+			</li>
+			<li>
+				<a href=""><img src="image/联系我们-邮件1.png" alt="联系我们" ></a>
+			</li>
+		</ul>
+	</div>
+<div class="allCont">
+	<div class="archives">
+		<div class="ar_img">
+			<div class="ar_head">
+				<h2>
+					个人体检表
+					<form class="form-inline date">
+  <div class="form-group">
+    <label >开始日期</label>
+    <input type="date" class="form-control" >
+  </div>
+  <div class="form-group">
+    <label>截止日期</label>
+    <input type="date" class="form-control" >
+  </div>
+  <input type="submit" name="ss" value="查询" class="form-control">
+</form>
+				</h2>
+
+			</div>
+			<div class="box_img">
+					<a href=""><img src="image/person_ar.png"></a>
+			</div>
+				<div class="img_display">
+					<a href=""><img src="image/person_ar.png"></a>
+					<a href=""><img src="image/ar_person1.jpg"></a>
+					<a href=""><img src="image/ar_person2.jpg"></a>
+				</div>
+				<div class="ar_arrows">
+					<span><</span>
+					<span style="float:right;">></span>
+				</div>
+		</div>
+		<div class="ar_person">
+			<a href=""><img src="image/person.jpg"></a>
+			<ul>
+				<li>
+					姓名：<span>小白</span>
+				</li>
+				<li>
+					性别：<span>男</span>
+				</li>
+				<li>
+					身高:<span>185cm</span>
+				</li>
+				<li>
+					体重:<span>60kg</span>
+				</li>
+				<li>
+					BMI指数：<span>17.53(偏瘦)</span>
+				</li>
+			</ul>
+			<!-- 体检表上传：
+			<div class="myfile">
+				<a href="javascript:;" class="a-upload">
+    				<input type="file" name="" id="">点击这里上传文件
+				</a>
+
+				<a href="javascript:;" class="file">选择文件
+   					 <input type="file" name="" id="">
+				</a>
+			</div> -->
+		</div>
+	</div>
+	<div class="picture">
+		<div class="ar_head">
+			<h2>
+				指标分析
+			</h2>
+		</div>
+		<div class="cont_ar_picture">
+			
+			<div style="width:30%;margin:20px 100px;">
+				<p>血糖指标</p>
+		<div>
+				<canvas id="canvas" class="canvas" height="450" width="600"></canvas>
+			</div>
+			
+		</div>
+	</div>
+	<div class="ill">
+		<div class="ar_head">
+			<h2>患病史</h2>
+		</div>
+		<div class="ar_ill">
+			<table class="table-bordered">
+				<thead>
+					<th>
+						日期
+					</th>
+					<th>
+						患病
+					</th>
+					<th>
+						病情描述
+					</th>
+					<th>
+						就医情况
+					</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+
+				</tbody>
+			</table>
+			<form>
+				<label>第1/4页</label>
+				<input type="text" name="number">页
+				<input type="submit" name="next" value="下一页">
+			</form>
+		</div>
+		<div class="footer">
+			<a href="">关于</a>
+			<a href="">联系我们</a>
+			<a href="">客服中心</a>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="javascript/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="js/Chart.js"></script>
+	<script>
+	var randomScalingFactor = function(){ return Math.round(Math.random()*100)};
+		var lineChartData = {
+			labels : ["January","February","March","April","May","June","July"],
+			datasets : [
+				{
+					label: "My First dataset",
+					fillColor : "rgba(220,220,220,0.2)",
+					strokeColor : "rgba(220,220,220,1)",
+					pointColor : "rgba(220,220,220,1)",
+					pointStrokeColor : "#fff",
+					pointHighlightFill : "#fff",
+					pointHighlightStroke : "rgba(220,220,220,1)",
+					data : [randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
+				},
+				{
+					label: "My Second dataset",
+					fillColor : "rgba(151,187,205,0.2)",
+					strokeColor : "rgba(151,187,205,1)",
+					pointColor : "rgba(151,187,205,1)",
+					pointStrokeColor : "#fff",
+					pointHighlightFill : "#fff",
+					pointHighlightStroke : "rgba(151,187,205,1)",
+					data : [randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
+				}
+			]
+
+		}
+		function addOnload(event)
+{
+
+	var oldonload=window.onload;
+	if(typeof window.onload!='function')
+	{	
+		window.onload=event;
+	}
+	else
+	{
+		window.onload=function()
+		{
+			oldonload();
+			event();
+		}
+	}
+}
+
+	 function a(){
+		var ctx = document.getElementById("canvas").getContext("2d");
+		window.myLine = new Chart(ctx).Line(lineChartData, {
+			responsive: true
+		});
+
+	 // function b(){
+		// var ctx = document.getElementById("canvas1").getContext("2d");
+		// window.myLine = new Chart(ctx).Line(lineChartData, {
+		// 	responsive: true
+		// });
+
+		 
+	}
+	addOnload(a);
+	// addOnload(b);
+	addOnload(setheight);
+	addOnload(imgdisplay);
+	addOnload(setimg);
+	addOnload(setsetting);
+	addOnload(family);
+
+	</script>
+
+</body>
+</html>

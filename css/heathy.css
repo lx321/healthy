@@ -1,0 +1,106 @@
+.Allhealthy{
+    /* border:1px solid #000; */
+    /* height:200px; */
+    width:100%;
+    padding-left:100px;
+    padding-top:60px;
+}
+.Allhealthy .myheathy{
+    /* border:1px solid #000; */
+    /* height:200px; */
+    width:100%;
+}
+.healthy_nav{
+    width:90%;
+    margin:0 auto;
+    height:70px;
+    /* background: url("../image/healthy_nav_bk.jpg") no-repeat;
+    background-size: 100% auto; */
+    /* border:1px solid #000; */
+    margin-top:50px;
+    border-top:2px solid rgb(0, 225, 221);
+    border-bottom: 2px solid rgb(0, 225, 221);
+}
+.healthy_nav ul{
+    
+    height:70px;
+    /* width:80%; */
+    width:80%;
+    margin:0 auto;
+}
+.healthy_nav ul li{
+    float: left;
+    line-height: 70px;
+    
+}
+.healthy_nav ul li a{
+    font-size: 30px;
+    font-weight: 600px;
+    padding-left:100px;
+    padding-right:50px;
+    color:rgb(0, 225, 221);
+}
+.healthy_nav ul li:first-child{
+    position: relative;
+
+}
+.healthy_nav ul li:first-child a img{
+    position: absolute;
+    left:-100%;
+    top:8px;
+   
+}
+.eat_food{
+    width:90%;
+    margin:0 auto;
+    color:#999;
+}
+.eat_food h3{
+    width:100%;
+    text-align: center;
+    border-bottom: 2px dashed rgb(0, 225, 221);
+    position: relative;
+    height:50px;
+}
+.eat_food h3 span{
+    display: block;
+    width:100px;
+    height:60px;
+    background:#fff;
+    position: absolute;
+    left:45%;
+    top:35px;
+
+}
+.eat_food h4{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    color:#999;
+}
+.eat_food h4 a{
+    color:#999;
+}
+.recipe{
+    width:100%;
+
+}
+.recipe>div{
+    float:left;
+    width:24%;
+    margin-left:5px;
+    border:1px solid #000;
+    /* height:200px;  */
+    box-shadow: 5px 5px 5px #999;
+    border-radius: 5px;
+}
+.recipe>div>div{
+    height:200px;
+    width:100%;
+    overflow: hidden;
+
+}
+.recipe>div>div img{
+    width:100%;
+    height:100%;
+}
